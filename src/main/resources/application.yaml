@@ -1,0 +1,10 @@
+app:
+  topic: datagen_users
+  retry-backoff: 4000
+  retry-max-attempts: 5
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: batch-consumer
+      enable-auto-commit: false
