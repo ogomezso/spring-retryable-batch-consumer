@@ -2,6 +2,7 @@ app:
   topic: datagen_users
   retry-backoff: 4000
   retry-max-attempts: 5
+  schema-registry-url: http://localhost:8081 
 spring:
   kafka:
     bootstrap-servers: localhost:9092

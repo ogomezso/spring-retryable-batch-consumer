@@ -12,4 +12,5 @@ public class AppConfig {
     private String topic;
     private Long retryFixedBackoff;
     private Integer retryMaxAttempts;
+    private String schemaRegistryUrl;
 }

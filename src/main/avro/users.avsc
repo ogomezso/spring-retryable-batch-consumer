@@ -1,5 +1,5 @@
 {
-    "namespace": "org.github.ogomezso.springretryablebatchconsumer.model",
+    "namespace": "org.github.ogomezso.model",
     "name": "Users",
     "type": "record",
     "fields": [
